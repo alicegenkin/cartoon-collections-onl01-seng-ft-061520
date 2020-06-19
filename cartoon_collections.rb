@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(array)
   i = 0
-    if array.any? {|i| i.length > 4}
+    if array.any? {|i| array[i].length > 4}
   return true
 else return false
 i = i + 1
