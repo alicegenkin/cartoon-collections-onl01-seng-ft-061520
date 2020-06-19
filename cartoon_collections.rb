@@ -15,7 +15,7 @@ i = i + 1
 end
 end
 
-def find_the_cheese# code an argument here
+
   def find_the_cheese(array)
   x=0
   while x <= array.length
