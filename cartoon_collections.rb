@@ -20,7 +20,7 @@ def find_the_cheese# code an argument here
   x=0
   while x <= array.length
     if array[x] == "cheddar"|| array[x] =="gouda"|| array[x] == "camembert"
-    return array[x] 
+    return array[x]
   else x+=1
   end
   end
