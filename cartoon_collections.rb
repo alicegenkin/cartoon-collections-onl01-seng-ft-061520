@@ -16,6 +16,16 @@ end
 end
 
 def find_the_cheese# code an argument here
+  def find_the_cheese(array)
+  x=0
+  while x <= array.length
+    if array[x] == "cheddar"|| array[x] =="gouda"|| array[x] == "camembert"
+    return array[x] 
+  else x+=1
+  end
+  end
+  puts nil
+  end
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-end
+  #cheese_types = ["cheddar", "gouda", "camembert"]
+#end
